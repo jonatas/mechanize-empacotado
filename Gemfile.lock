@@ -1,8 +1,11 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    bouncy-castle-java (1.5.0146.1)
     domain_name (0.5.4)
       unf (~> 0.0.3)
+    jruby-openssl (0.7.7)
+      bouncy-castle-java (>= 1.5.0146.1)
     mechanize (2.5.1)
       domain_name (~> 0.5, >= 0.5.1)
       mime-types (~> 1.17, >= 1.17.2)
@@ -23,4 +26,5 @@ PLATFORMS
   java
 
 DEPENDENCIES
+  jruby-openssl
   mechanize (= 2.5.1)

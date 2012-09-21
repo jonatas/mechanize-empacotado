@@ -1,0 +1,10 @@
+puts "Hello here"
+require "rubygems"
+require "bundler/setup"
+ a= Mechanize.new { |agent|
+  agent.user_agent_alias = 'Mac Safari'
+}
+
+a.get('http://google.com/') do |page|
+puts page
+end

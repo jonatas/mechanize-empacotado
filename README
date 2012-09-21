@@ -1,0 +1,6 @@
+Projeto de exemplo com o mechanize empacotado com jruby.
+
+
+warble executable jar
+cd ..
+java -jar mechanize-empacotado/mechanize-empacotado.jar
